@@ -1,10 +1,6 @@
 {
     "version": 2,
-    "name": "uTubeApi",
-    "builds": [
-       { "src": "*.js", "use": "@vercel/node" }
-    ],
-    "routes": [
-       { "src": "/(.*)", "dest": "/" }
-    ]
+    "name": "utubeapi",
+    "builds": [ { "src": "*.js", "use": "@vercel/node" } ],
+    "routes": [ { "src": "/(.*)", "dest": "/" } ]
  }
